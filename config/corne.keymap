@@ -48,13 +48,4 @@
             >;
         };
     };
-
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        hardware_layer {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
 };
