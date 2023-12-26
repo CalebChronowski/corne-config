@@ -38,19 +38,19 @@
 
         default_layer {
             bindings = <
-&kp ESC    &kp Q  &kp W      &kp F         &kp P          &kp B          &kp J        &kp L      &kp U          &kp Y        &kp SEMI  &kp DEL
-&kp TAB    &kp A  &mt LALT R &mt LCTRL S   &mt LGUI T     &kp G          &kp M        &mt LGUI N &mt LCTRL E    &mt LALT I   &kp O     &kp TAB
-&none      &kp Z  &kp X      &kp C         &kp D          &kp V          &kp K        &kp H      &kp COMMA      &kp DOT      &kp FSLH  &none
-                             &mo 4         &lt 2 RET      &lt 3 SPACE    &lt 3 BSPC   &kp LSHFT  &mo 2
+&kp ESC        &kp Q  &kp W      &kp F         &kp P          &kp B          &kp J        &kp L      &kp U          &kp Y        &kp SEMI  &kp DEL
+&kp TAB        &kp A  &mt LALT R &mt LCTRL S   &mt LGUI T     &kp G          &kp M        &mt LGUI N &mt LCTRL E    &mt LALT I   &kp O     &kp TAB
+&kp C_BRI_DN   &kp Z  &kp X      &kp C         &kp D          &kp V          &kp K        &kp H      &kp COMMA      &kp DOT      &kp FSLH  &kp C_BRI_UP
+                                 &mo 4         &lt 2 RET      &lt 3 SPACE    &lt 3 BSPC   &kp LSHFT  &kp C_BKLT_TOG
             >;
         };
 
         qwerty {
             bindings = <
-&kp ESC    &kp Q  &kp W      &kp E         &kp R          &kp T          &kp Y        &kp U      &kp I          &kp O        &kp P      &kp DEL
-&kp LCTRL  &kp A  &kp S      &kp D         &kp F          &kp G          &kp H        &mt LGUI J &mt LCTRL K    &mt LALT L   &kp SEMI   &kp TAB
-&kp LSHFT  &kp Z  &kp X      &kp C         &kp V          &kp B          &kp N        &kp M      &kp COMMA      &kp DOT      &kp FSLH   &none
-                             &kp DOT       &lt 2 RET      &lt 3 SPACE    &lt 3 BSPC   &kp LSHFT  &mo 2
+&kp ESC        &kp Q  &kp W      &kp E         &kp R          &kp T          &kp Y        &kp U      &kp I          &kp O        &kp P      &kp DEL
+&kp LSHFT      &kp A  &kp S      &kp D         &kp F          &kp G          &kp H        &mt LGUI J &mt LCTRL K    &mt LALT L   &kp SEMI   &kp TAB
+&kp LCTRL      &kp Z  &kp X      &kp C         &kp V          &kp B          &kp N        &kp M      &kp COMMA      &kp DOT      &kp FSLH   &none
+                                 &kp DOT       &trans         &trans         &trans       &trans     &trans
             >;
         };
 
